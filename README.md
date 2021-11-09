@@ -81,7 +81,7 @@ Kinetics-400.</em>
 ## Citation
 Please cite this paper if it helped in your research:
 ```
-@incollection{singh2021interpretable,
+@article{singh2021interpretable,
   title={Interpretable Classification of Human Exercise Videos through Pose Estimation and Multivariate Time Series Analysis},
   author={Singh, Ashish and Le, Binh Thanh and Le Nguyen, Thach and Whelan, Darragh and O’Reilly, Martin and Caulfield, Brian and Ifrim, Georgiana},
   year={2021},
