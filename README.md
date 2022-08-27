@@ -36,8 +36,8 @@ The data used is the video recordings of the execution of the Military Press (MP
 repetitions of the normal form and 10 repetitions with induced deviations. Time series data is obtained by repeatedly 
 applying OpenPose over all the frames. The data shared in this repository here is already pre-processed i.e. 
 the raw data obtained after the OpenPose step is segmented, resampled and split into training/test data. Each sample in
-training/test data corresponds to one repetition of Military Press of a type. Additionally, due to privacy concerns 
-original videos cannot be shared publicly. Please mail us if you need access to the original videos.
+training/test data corresponds to one repetition of Military Press of a type. Please [email](mailto:ashish.singh@ucdconnect.ie) if you need access to the 
+original videos.
 
 The folder TrainTestData consists of data in the numpy format whereas the folder ```data/sktime_format``` contains data in the 
 [sktime](https://www.sktime.org/en/latest/) format. Each sample in the data is multivariate of shape 161*16,
