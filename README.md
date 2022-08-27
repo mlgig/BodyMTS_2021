@@ -59,7 +59,7 @@ motion is captured as a multivariate time series with 50 channels, two (X,Y) cha
 each body part tracked (only 8 body parts with Y coordinate shown above). A class label
 is associated with each such multivariate time series.</em>
 
-### Installation
+### Running the code
 Please use the requirements.txt file to install all the dependencies. There is a configuration script for the 
 classifier script which contains the relative paths to the exercise and data folders.
 
@@ -102,7 +102,8 @@ on Kinetics-400.
 ## Analyzing BodyMTS robustness against different sources of noise
 We analyze the robustness of BodyMTS against different sources
 of noise that may occur in this application. These sources of noise can be
-broadly classified into 3 categories: (1) video data capture; (2) OpenPose parameters; (3) time series data pre-processing.
+broadly classified into 3 categories: (1) video data capture (2) OpenPose parameters
+(3) time series data pre-processing.
 
 We alter the video properties such as CRF, bit-rate and resolution to analyze their impact
 on the BodyMTS accuracy.
@@ -123,7 +124,7 @@ Default (23) | 213 | 0.87
 <em>Table 2: Average accuracy of BodyMTS on test data over three train/test splits for different values of CRF. 
 At CRF 28 we save 70% of data storage and maintain similar accuracy.</em>
 
-Takeaway: Degrading the quality of videos by altering CRF to 28 makes it
+From the above results degrading the quality of videos by altering CRF to 28 makes it
 possible to satisfy minimum accuracy requirements (e.g. above 80%) as listed
 in Table 1 with 70% savings in storage space.
 
