@@ -51,6 +51,14 @@ We have also included the file containing the pid information which can be used 
 
 The folder ```change_video_property``` contains the bash scripts to modify the CRF and other properties of videos.
 
+![Alt text](figs/videoto2.png?raw=true)
+<em>**Fig 1**  Extraction of time series data from video using OpenPose. Each frame in the video
+is considered as a single time point in the resulting time series. Each tracked body part
+results in a single time series that captures the movement of that body part. The whole
+motion is captured as a multivariate time series with 50 channels, two (X,Y) channels for
+each body part tracked (only 8 body parts with Y coordinate shown above). A class label
+is associated with each such multivariate time series.</em>
+
 ### Installation
 Please use the requirements.txt file to install all the dependencies. There is a configuration script for the 
 classifier script which contains the relative paths to the exercise and data folders.
